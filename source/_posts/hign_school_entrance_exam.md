@@ -1562,11 +1562,11 @@ cover: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgQuietView.png'
 &nbsp;
 &nbsp;
 {% raw %}
-<div id="12aa3c76d6d94f9ba34093b0c2fe24e4" class="chart-container" style="width:900px; height:500px;"></div>
+<div id="e4aff665e3c14990bc5d523b4607cfbd" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_12aa3c76d6d94f9ba34093b0c2fe24e4 = echarts.init(
-            document.getElementById('12aa3c76d6d94f9ba34093b0c2fe24e4'), 'white', {renderer: 'canvas'});
-        var option_12aa3c76d6d94f9ba34093b0c2fe24e4 = {
+        var chart_e4aff665e3c14990bc5d523b4607cfbd = echarts.init(
+            document.getElementById('e4aff665e3c14990bc5d523b4607cfbd'), 'white', {renderer: 'canvas'});
+        var option_e4aff665e3c14990bc5d523b4607cfbd = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -1782,6 +1782,10 @@ cover: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgQuietView.png'
                 "max": 100
             },
             {
+                "name": " \u5185\u8499\u53e4 ",
+                "max": 100
+            },
+            {
                 "name": " \u5b89\u5fbd ",
                 "max": 100
             },
@@ -1826,7 +1830,7 @@ cover: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgQuietView.png'
                 "max": 100
             },
             {
-                "name": " \u6e56\u5357 ",
+                "name": " \u6e56\u5357",
                 "max": 100
             },
             {
@@ -1862,11 +1866,27 @@ cover: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgQuietView.png'
                 "max": 100
             },
             {
+                "name": " \u5c71\u4e1c ",
+                "max": 100
+            },
+            {
                 "name": " \u6c5f\u897f ",
                 "max": 100
             },
             {
+                "name": " \u5e7f\u4e1c ",
+                "max": 100
+            },
+            {
                 "name": " \u4e91\u5357 ",
+                "max": 100
+            },
+            {
+                "name": " \u897f\u85cf ",
+                "max": 100
+            },
+            {
+                "name": " \u6cb3\u5357 ",
                 "max": 100
             },
             {
@@ -1908,7 +1928,7 @@ cover: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgQuietView.png'
         }
     ]
 };
-        chart_12aa3c76d6d94f9ba34093b0c2fe24e4.setOption(option_12aa3c76d6d94f9ba34093b0c2fe24e4);
+        chart_e4aff665e3c14990bc5d523b4607cfbd.setOption(option_e4aff665e3c14990bc5d523b4607cfbd);
     </script>
 {% endraw %}
 &nbsp;
