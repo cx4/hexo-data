@@ -389,7 +389,7 @@ cover: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgQuietView.png'
 &nbsp; 
 
 {% raw %}
-<div id="232b0b030691405eb161497cf1a44645" class="chart-container" style="width:1600px; height:800px;"></div>
+<div id="232b0b030691405eb161497cf1a44645" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
         var chart_232b0b030691405eb161497cf1a44645 = echarts.init(
             document.getElementById('232b0b030691405eb161497cf1a44645'), 'white', {renderer: 'canvas'});
@@ -1561,4 +1561,4 @@ cover: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgQuietView.png'
 {% endraw%}
 &nbsp;
 &nbsp;
-从数据来看，初中升普通高中升学率最高的省份居然不是北上广，这个数据还是挺刷新我的认知的，从小升初和初中升普通高中的升学率**最高的省份居然是吉林和黑龙江**。
+从数据来看，初中升普通高中升学率最高的省份居然不是北上广，这个数据还是挺刷新我的认知的，从小升初和初中升普通高中的升学率**最高的省份居然是吉林 黑龙江和陕西**。
