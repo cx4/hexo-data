@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: SmallData
+subtitle: '小数据,Small-Data,smalldata,SmallData,数据分析,数据可视化'
+description: '尝试重新组织互联网上的数据和信息，让它们的可读性和可用性变得更好一些，当然也更酷一些。'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Roy Chang
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://data.yrzdm.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -28,7 +28,8 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
+  - 'html/*.html'
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -45,11 +46,11 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
-  auto_detect: false
+  line_number: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
-  hljs: false
+  hljs: true
 prismjs:
   enable: false
   preprocess: true
@@ -62,7 +63,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 9
   order_by: -date
 
 # Category & Tag
@@ -97,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: Quiet
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
