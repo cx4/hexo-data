@@ -1561,4 +1561,356 @@ cover: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgQuietView.png'
 {% endraw%}
 &nbsp;
 &nbsp;
+{% raw %}
+<div id="12aa3c76d6d94f9ba34093b0c2fe24e4" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_12aa3c76d6d94f9ba34093b0c2fe24e4 = echarts.init(
+            document.getElementById('12aa3c76d6d94f9ba34093b0c2fe24e4'), 'white', {renderer: 'canvas'});
+        var option_12aa3c76d6d94f9ba34093b0c2fe24e4 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "radar",
+            "name": "\u521d\u4e2d\u5347\u5b66\u7387",
+            "data": [
+                [
+                    99.74,
+                    98.52,
+                    98.14,
+                    94.6,
+                    93.84,
+                    92.44,
+                    91.25,
+                    90.1,
+                    90.02,
+                    89.11,
+                    88.5,
+                    88.44,
+                    88.27,
+                    87.47,
+                    87.26,
+                    87.26,
+                    86.3,
+                    85.89,
+                    85.11,
+                    84.79,
+                    84.64,
+                    84.64,
+                    84.21,
+                    84.04,
+                    82.18,
+                    81.43,
+                    80.34,
+                    79.82,
+                    79.45,
+                    79.32,
+                    76.5
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#ff0066"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "\u521d\u5347\u9ad8\u5347\u5b66\u7387",
+            "data": [
+                [
+                    63.59,
+                    62.65,
+                    68.32,
+                    67.17,
+                    56.0,
+                    58.42,
+                    53.31,
+                    57.47,
+                    58.89,
+                    60.54,
+                    64.33,
+                    58.65,
+                    60.31,
+                    58.45,
+                    69.56,
+                    56.84,
+                    70.49,
+                    57.87,
+                    55.54,
+                    60.16,
+                    55.9,
+                    70.08,
+                    59.86,
+                    57.67,
+                    57.41,
+                    59.33,
+                    55.63,
+                    53.42,
+                    56.42,
+                    53.11,
+                    54.04
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#3333cc"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u521d\u4e2d\u5347\u5b66\u7387",
+                "\u521d\u5347\u9ad8\u5347\u5b66\u7387"
+            ],
+            "selected": {
+                "\u521d\u4e2d\u5347\u5b66\u7387": true,
+                "\u521d\u5347\u9ad8\u5347\u5b66\u7387": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "radar": {
+        "indicator": [
+            {
+                "name": " \u91cd\u5e86 ",
+                "max": 100
+            },
+            {
+                "name": " \u4e0a\u6d77 ",
+                "max": 100
+            },
+            {
+                "name": " \u5929\u6d25 ",
+                "max": 100
+            },
+            {
+                "name": " \u5b89\u5fbd ",
+                "max": 100
+            },
+            {
+                "name": " \u56db\u5ddd ",
+                "max": 100
+            },
+            {
+                "name": " \u6d59\u6c5f ",
+                "max": 100
+            },
+            {
+                "name": " \u6d77\u5357 ",
+                "max": 100
+            },
+            {
+                "name": " \u6cb3\u5317 ",
+                "max": 100
+            },
+            {
+                "name": " \u9655\u897f ",
+                "max": 100
+            },
+            {
+                "name": " \u8fbd\u5b81 ",
+                "max": 100
+            },
+            {
+                "name": " \u9752\u6d77 ",
+                "max": 100
+            },
+            {
+                "name": " \u6e56\u5317 ",
+                "max": 100
+            },
+            {
+                "name": " \u5b81\u590f ",
+                "max": 100
+            },
+            {
+                "name": " \u5409\u6797 ",
+                "max": 100
+            },
+            {
+                "name": " \u6e56\u5357 ",
+                "max": 100
+            },
+            {
+                "name": " \u9ed1\u9f99\u6c5f ",
+                "max": 100
+            },
+            {
+                "name": " \u5e7f\u897f ",
+                "max": 100
+            },
+            {
+                "name": " \u798f\u5efa ",
+                "max": 100
+            },
+            {
+                "name": " \u7518\u8083 ",
+                "max": 100
+            },
+            {
+                "name": " \u6c5f\u82cf ",
+                "max": 100
+            },
+            {
+                "name": " \u5317\u4eac ",
+                "max": 100
+            },
+            {
+                "name": " \u5c71\u897f ",
+                "max": 100
+            },
+            {
+                "name": " \u65b0\u7586 ",
+                "max": 100
+            },
+            {
+                "name": " \u6c5f\u897f ",
+                "max": 100
+            },
+            {
+                "name": " \u4e91\u5357 ",
+                "max": 100
+            },
+            {
+                "name": " \u8d35\u5dde ",
+                "max": 100
+            }
+        ],
+        "shape": "circle",
+        "name": {
+            "textStyle": {}
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            }
+        },
+        "splitArea": {
+            "show": true,
+            "areaStyle": {
+                "opacity": 0
+            }
+        },
+        "axisLine": {
+            "show": true,
+            "onZero": true,
+            "onZeroAxisIndex": 0
+        }
+    },
+    "title": [
+        {
+            "text": "\u521d\u4e2d\u5347\u5b66\u7387/\u521d\u5347\u9ad8\u5347\u5b66\u7387",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_12aa3c76d6d94f9ba34093b0c2fe24e4.setOption(option_12aa3c76d6d94f9ba34093b0c2fe24e4);
+    </script>
+{% endraw %}
+&nbsp;
+&nbsp;
 从数据来看，初中升普通高中升学率最高的省份居然不是北上广，这个数据还是挺刷新我的认知的，从小升初和初中升普通高中的升学率**最高的省份居然是吉林 黑龙江和陕西**。
