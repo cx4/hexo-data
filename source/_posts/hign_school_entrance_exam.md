@@ -8,7 +8,7 @@ tags:
   - 分析
 excerpt: 关于55分流的一些分析
 date: 2021-10-03 20:33:36
-cover: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgQuietView.png'
+cover: 'https://images.yrzdm.com/2021-10-09/v2-9669cb2a125ac4231c413eb4957d6fad_b.jpg'
 ---
 
 2021年3月25日教育部办公厅下发了[《教育部办公厅关于做好2021年中等职业学校 招生工作的通知》](http://www.moe.gov.cn/srcsite/A07/moe_950/202104/t20210406_524618.html)的指导文件，文件主旨为推动实施职业教育提质培优行动计划。
