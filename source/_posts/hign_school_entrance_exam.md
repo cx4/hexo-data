@@ -383,4 +383,1182 @@ cover: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgQuietView.png'
 
 该数据来自教育部网站公开数据，自2000-2017年小学升初中的升学率平均值为 **98.21%** 比起 2000 年提升 **3.31%** ，初中属于义务教育阶段，由此可见义务教育的普及率还是非常高的。
 
-初中升高级中学的平均升学率为 **78.51%** ，比2000年的升学率提升了 **27.73%** ，但是数据中并没有说明高级中学是否包含职业技校，
+初中升高级中学的平均升学率为 **78.51%** ，比2000年的升学率提升了 **27.73%** ，但是数据中并没有说明高级中学是否包含中等职业学校。
+&nbsp;
+我从教育部网站找到2015-2019年的全国初中升普高的升学率数据。这个数据是不包含初中升中等职业学校的数据值。我们看到2015-2019年全国初中升普高的升学率分别为56.19%、56.39%、57.25%、57.96%、57.73%。
+&nbsp; 
+
+{% raw %}
+<div id="232b0b030691405eb161497cf1a44645" class="chart-container" style="width:1600px; height:800px;"></div>
+    <script>
+        var chart_232b0b030691405eb161497cf1a44645 = echarts.init(
+            document.getElementById('232b0b030691405eb161497cf1a44645'), 'white', {renderer: 'canvas'});
+        var option_232b0b030691405eb161497cf1a44645 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u5317\u4eac",
+            "legendHoverLink": true,
+            "data": [
+                61.16,
+                61.94,
+                65.21,
+                67.4,
+                70.08
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u5929\u6d25",
+            "legendHoverLink": true,
+            "data": [
+                64.14,
+                63.74,
+                64.11,
+                66.29,
+                68.32
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u6cb3\u5317",
+            "legendHoverLink": true,
+            "data": [
+                58.92,
+                55.87,
+                56.48,
+                57.84,
+                58.89
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u5c71\u897f",
+            "legendHoverLink": true,
+            "data": [
+                58.1,
+                59.5,
+                59.64,
+                61.17,
+                59.86
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u5185\u8499\u53e4",
+            "legendHoverLink": true,
+            "data": [
+                66.72,
+                66.88,
+                66.92,
+                68.09,
+                67.17
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u8fbd\u5b81",
+            "legendHoverLink": true,
+            "data": [
+                62.19,
+                61.09,
+                60.73,
+                63.22,
+                64.33
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u5409\u6797",
+            "legendHoverLink": true,
+            "data": [
+                67.1,
+                67.74,
+                69.36,
+                71.76,
+                69.56
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u9ed1\u9f99\u6c5f",
+            "legendHoverLink": true,
+            "data": [
+                67.76,
+                67.52,
+                68.5,
+                70.85,
+                70.49
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u4e0a\u6d77",
+            "legendHoverLink": true,
+            "data": [
+                56.68,
+                57.78,
+                59.26,
+                62.1,
+                62.65
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u6c5f\u82cf",
+            "legendHoverLink": true,
+            "data": [
+                52.2,
+                51.66,
+                51.36,
+                56.47,
+                55.9
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u6d59\u6c5f",
+            "legendHoverLink": true,
+            "data": [
+                54.33,
+                53.66,
+                54.14,
+                54.48,
+                53.31
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u5b89\u5fae",
+            "legendHoverLink": true,
+            "data": [
+                56.68,
+                57.74,
+                57.16,
+                56.36,
+                56.0
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u798f\u5efa",
+            "legendHoverLink": true,
+            "data": [
+                59.38,
+                57.88,
+                57.88,
+                56.76,
+                55.54
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u6c5f\u897f",
+            "legendHoverLink": true,
+            "data": [
+                57.57,
+                57.48,
+                59.02,
+                59.79,
+                59.33
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u5c71\u4e1c",
+            "legendHoverLink": true,
+            "data": [
+                55.86,
+                55.95,
+                57.27,
+                58.27,
+                57.41
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u6cb3\u5357",
+            "legendHoverLink": true,
+            "data": [
+                54.99,
+                53.69,
+                53.65,
+                54.37,
+                53.11
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u6e56\u5317",
+            "legendHoverLink": true,
+            "data": [
+                60.39,
+                61.81,
+                61.08,
+                61.27,
+                60.31
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u6e56\u5357",
+            "legendHoverLink": true,
+            "data": [
+                54.35,
+                53.24,
+                54.34,
+                56.11,
+                56.84
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u5e7f\u4e1c",
+            "legendHoverLink": true,
+            "data": [
+                51.39,
+                53.03,
+                54.85,
+                55.26,
+                55.63
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u5e7f\u897f",
+            "legendHoverLink": true,
+            "data": [
+                49.47,
+                52.11,
+                55.02,
+                57.54,
+                57.87
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u6d77\u5357",
+            "legendHoverLink": true,
+            "data": [
+                53.27,
+                52.89,
+                53.88,
+                55.62,
+                57.47
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u91cd\u5e86",
+            "legendHoverLink": true,
+            "data": [
+                61.08,
+                62.57,
+                63.36,
+                64.67,
+                63.59
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u56db\u5ddd",
+            "legendHoverLink": true,
+            "data": [
+                55.59,
+                57.15,
+                57.83,
+                59.03,
+                58.42
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u8d35\u5dde",
+            "legendHoverLink": true,
+            "data": [
+                48.9,
+                49.5,
+                52.97,
+                53.68,
+                54.04
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u4e91\u5357",
+            "legendHoverLink": true,
+            "data": [
+                47.56,
+                48.0,
+                49.21,
+                49.28,
+                53.42
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u897f\u85cf",
+            "legendHoverLink": true,
+            "data": [
+                48.89,
+                52.4,
+                54.12,
+                54.27,
+                56.42
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u9655\u897f",
+            "legendHoverLink": true,
+            "data": [
+                69.64,
+                70.35,
+                70.06,
+                68.97,
+                60.54
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u7518\u8083",
+            "legendHoverLink": true,
+            "data": [
+                60.0,
+                61.91,
+                61.27,
+                60.95,
+                60.16
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u9752\u6d77",
+            "legendHoverLink": true,
+            "data": [
+                61.27,
+                61.12,
+                62.23,
+                62.89,
+                58.65
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u5b81\u590f",
+            "legendHoverLink": true,
+            "data": [
+                57.21,
+                54.4,
+                55.36,
+                57.26,
+                58.45
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u65b0\u7586",
+            "legendHoverLink": true,
+            "data": [
+                63.08,
+                63.62,
+                65.66,
+                55.65,
+                57.67
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u5e73\u5747\u5347\u5b66\u7387",
+            "connectNulls": false,
+            "yAxisIndex": 1,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2015",
+                    56.19
+                ],
+                [
+                    "2016",
+                    56.39
+                ],
+                [
+                    "2017",
+                    57.25
+                ],
+                [
+                    "2018",
+                    57.96
+                ],
+                [
+                    "2019",
+                    57.73
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5317\u4eac",
+                "\u5929\u6d25",
+                "\u6cb3\u5317",
+                "\u5c71\u897f",
+                "\u5185\u8499\u53e4",
+                "\u8fbd\u5b81",
+                "\u5409\u6797",
+                "\u9ed1\u9f99\u6c5f",
+                "\u4e0a\u6d77",
+                "\u6c5f\u82cf",
+                "\u6d59\u6c5f",
+                "\u5b89\u5fae",
+                "\u798f\u5efa",
+                "\u6c5f\u897f",
+                "\u5c71\u4e1c",
+                "\u6cb3\u5357",
+                "\u6e56\u5317",
+                "\u6e56\u5357",
+                "\u5e7f\u4e1c",
+                "\u5e7f\u897f",
+                "\u6d77\u5357",
+                "\u91cd\u5e86",
+                "\u56db\u5ddd",
+                "\u8d35\u5dde",
+                "\u4e91\u5357",
+                "\u897f\u85cf",
+                "\u9655\u897f",
+                "\u7518\u8083",
+                "\u9752\u6d77",
+                "\u5b81\u590f",
+                "\u65b0\u7586",
+                "\u5e73\u5747\u5347\u5b66\u7387"
+            ],
+            "selected": {
+                "\u5317\u4eac": true,
+                "\u5929\u6d25": true,
+                "\u6cb3\u5317": true,
+                "\u5c71\u897f": true,
+                "\u5185\u8499\u53e4": true,
+                "\u8fbd\u5b81": true,
+                "\u5409\u6797": true,
+                "\u9ed1\u9f99\u6c5f": true,
+                "\u4e0a\u6d77": true,
+                "\u6c5f\u82cf": true,
+                "\u6d59\u6c5f": true,
+                "\u5b89\u5fae": true,
+                "\u798f\u5efa": true,
+                "\u6c5f\u897f": true,
+                "\u5c71\u4e1c": true,
+                "\u6cb3\u5357": true,
+                "\u6e56\u5317": true,
+                "\u6e56\u5357": true,
+                "\u5e7f\u4e1c": true,
+                "\u5e7f\u897f": true,
+                "\u6d77\u5357": true,
+                "\u91cd\u5e86": true,
+                "\u56db\u5ddd": true,
+                "\u8d35\u5dde": true,
+                "\u4e91\u5357": true,
+                "\u897f\u85cf": true,
+                "\u9655\u897f": true,
+                "\u7518\u8083": true,
+                "\u9752\u6d77": true,
+                "\u5b81\u590f": true,
+                "\u65b0\u7586": true,
+                "\u5e73\u5747\u5347\u5b66\u7387": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisPointer": {
+                "show": true,
+                "type": "shadow"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "name": "\u5347\u5b66\u7387",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "interval": 5,
+            "gridIndex": 0,
+            "axisTick": {
+                "show": true,
+                "alignWithLabel": false,
+                "inside": false
+            },
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value} %"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 100,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "\u5e73\u5747\u5347\u5b66\u7387",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "interval": 5,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value} %"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 100,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_232b0b030691405eb161497cf1a44645.setOption(option_232b0b030691405eb161497cf1a44645);
+    </script>
+{% endraw%}
+&nbsp;
+&nbsp;
+从数据来看，初中升普通高中升学率最高的省份居然不是北上广，这个数据还是挺刷新我的认知的，从小升初和初中升普通高中的升学率**最高的省份居然是吉林和黑龙江**。
