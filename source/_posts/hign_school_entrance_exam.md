@@ -1561,6 +1561,7 @@ cover: 'https://images.yrzdm.com/2021-10-09/v2-9669cb2a125ac4231c413eb4957d6fad_
 {% endraw%}
 &nbsp;
 &nbsp;
+从教育部网站找到一份2019年初中和初中升普通高中的统计数据
 {% raw %}
 <div id="e4aff665e3c14990bc5d523b4607cfbd" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
@@ -1933,4 +1934,731 @@ cover: 'https://images.yrzdm.com/2021-10-09/v2-9669cb2a125ac4231c413eb4957d6fad_
 {% endraw %}
 &nbsp;
 &nbsp;
-从数据来看，初中升普通高中升学率最高的省份居然不是北上广，这个数据还是挺刷新我的认知的，从小升初和初中升普通高中的升学率**最高的省份居然是吉林 黑龙江和陕西**。
+从数据来看，初中升普通高中升学率最高的份居然不是北上广，这个数据还是挺刷新我的认知的，从小升初和初中升普通高中的升学率**最高的份居然是吉林 黑龙江和陕西**。
+
+看到**内蒙古**的初中升普通高中的升学率这么高的时候也是刷新认知，没有去过内蒙，但是我一个初中同学是从内蒙来的，他们说那边都是游牧民族，文化普及程度不高，我感觉被他骗了。
+
+那么升学率和经济有没有关系呢，我从[Wikipedia](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%9C%81%E7%BA%A7%E8%A1%8C%E6%94%BF%E5%8C%BA%E4%BA%BA%E5%9D%87%E5%9C%B0%E5%8C%BA%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC%E5%88%97%E8%A1%A8)上找了一份2019年国内分份的GDP数据，尝试对比升学率与份人均GDP之间有没有什么关系。
+&nbsp;
+&nbsp;
+{% raw %}
+<div id="cda2188f12e0453c93ba02e6facc29ff" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_cda2188f12e0453c93ba02e6facc29ff = echarts.init(
+            document.getElementById('cda2188f12e0453c93ba02e6facc29ff'), 'white', {renderer: 'canvas'});
+        var option_cda2188f12e0453c93ba02e6facc29ff = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "radar",
+            "name": "2019\u5404\u7701\u4eba\u5747GDP",
+            "data": [
+                [
+                    75828.0,
+                    157279.0,
+                    90370.0,
+                    67851.0,
+                    58496.0,
+                    55774.0,
+                    107624.0,
+                    56507.0,
+                    46348.0,
+                    66644.0,
+                    57191.0,
+                    48981.0,
+                    77387.0,
+                    54217.0,
+                    43475.0,
+                    57540.0,
+                    36183.0,
+                    42964.0,
+                    107139.0,
+                    32994.0,
+                    123607.0,
+                    164220.0,
+                    45724.0,
+                    54280.0,
+                    70653.0,
+                    53164.0,
+                    94172.0,
+                    47944.0,
+                    48902.0,
+                    56388.0,
+                    46433.0
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#ff0066"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "2019\u5404\u7701\u4eba\u5747GDP"
+            ],
+            "selected": {
+                "2019\u5404\u7701\u4eba\u5747GDP": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "radar": {
+        "indicator": [
+            {
+                "name": " \u91cd\u5e86 ",
+                "max": 200000
+            },
+            {
+                "name": " \u4e0a\u6d77 ",
+                "max": 200000
+            },
+            {
+                "name": " \u5929\u6d25 ",
+                "max": 200000
+            },
+            {
+                "name": " \u5185\u8499\u53e4 ",
+                "max": 200000
+            },
+            {
+                "name": " \u5b89\u5fbd ",
+                "max": 200000
+            },
+            {
+                "name": " \u56db\u5ddd ",
+                "max": 200000
+            },
+            {
+                "name": " \u6d59\u6c5f ",
+                "max": 200000
+            },
+            {
+                "name": " \u6d77\u5357 ",
+                "max": 200000
+            },
+            {
+                "name": " \u6cb3\u5317 ",
+                "max": 200000
+            },
+            {
+                "name": " \u9655\u897f ",
+                "max": 200000
+            },
+            {
+                "name": " \u8fbd\u5b81 ",
+                "max": 200000
+            },
+            {
+                "name": " \u9752\u6d77 ",
+                "max": 200000
+            },
+            {
+                "name": " \u6e56\u5317 ",
+                "max": 200000
+            },
+            {
+                "name": " \u5b81\u590f ",
+                "max": 200000
+            },
+            {
+                "name": " \u5409\u6797 ",
+                "max": 200000
+            },
+            {
+                "name": " \u6e56\u5357",
+                "max": 200000
+            },
+            {
+                "name": " \u9ed1\u9f99\u6c5f ",
+                "max": 200000
+            },
+            {
+                "name": " \u5e7f\u897f ",
+                "max": 200000
+            },
+            {
+                "name": " \u798f\u5efa ",
+                "max": 200000
+            },
+            {
+                "name": " \u7518\u8083 ",
+                "max": 200000
+            },
+            {
+                "name": " \u6c5f\u82cf ",
+                "max": 200000
+            },
+            {
+                "name": " \u5317\u4eac ",
+                "max": 200000
+            },
+            {
+                "name": " \u5c71\u897f ",
+                "max": 200000
+            },
+            {
+                "name": " \u65b0\u7586 ",
+                "max": 200000
+            },
+            {
+                "name": " \u5c71\u4e1c ",
+                "max": 200000
+            },
+            {
+                "name": " \u6c5f\u897f ",
+                "max": 200000
+            },
+            {
+                "name": " \u5e7f\u4e1c ",
+                "max": 200000
+            },
+            {
+                "name": " \u4e91\u5357 ",
+                "max": 200000
+            },
+            {
+                "name": " \u897f\u85cf ",
+                "max": 200000
+            },
+            {
+                "name": " \u6cb3\u5357 ",
+                "max": 200000
+            },
+            {
+                "name": " \u8d35\u5dde ",
+                "max": 200000
+            }
+        ],
+        "shape": "circle",
+        "name": {
+            "textStyle": {}
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            }
+        },
+        "splitArea": {
+            "show": true,
+            "areaStyle": {
+                "opacity": 0
+            }
+        },
+        "axisLine": {
+            "show": true,
+            "onZero": true,
+            "onZeroAxisIndex": 0
+        }
+    },
+    "title": [
+        {
+            "text": "\u521d\u4e2d\u5347\u5b66\u7387/\u521d\u5347\u9ad8\u5347\u5b66\u7387",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_cda2188f12e0453c93ba02e6facc29ff.setOption(option_cda2188f12e0453c93ba02e6facc29ff);
+    </script>
+{% endraw %}
+&nbsp;
+&nbsp;
+如果以**黑龙江、吉林、陕西、浙江、广东**与其他份的升学率来做对比的话，升学率与人均GDP之间成负相关性，但这之间并没有必然联系。
+
+如果从经济和升学率之间存在弱关联性，那么师生比之间有没有关联呢？从国家数据统计局拿到2019年全国各的在校学生数量与初中专任教师数量产生的生师比数据分析一下。
+&nbsp;
+&nbsp;
+{% raw %}
+<div id="5bf935007e2f465ebe670ba044e66d8b" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_5bf935007e2f465ebe670ba044e66d8b = echarts.init(
+            document.getElementById('5bf935007e2f465ebe670ba044e66d8b'), 'white', {renderer: 'canvas'});
+        var option_5bf935007e2f465ebe670ba044e66d8b = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "radar",
+            "name": "2019\u5404\u7701\u521d\u4e2d\u5728\u6821\u5b66\u751f\u6570\u91cf",
+            "data": [
+                [
+                    111.58,
+                    45.1,
+                    30.34,
+                    66.33,
+                    218.83,
+                    273.72,
+                    163.7,
+                    36.9,
+                    297.31,
+                    112.35,
+                    101.46,
+                    22.53,
+                    165.37,
+                    29.88,
+                    65.45,
+                    248.25,
+                    91.4,
+                    220.49,
+                    136.46,
+                    88.18,
+                    242.46,
+                    30.87,
+                    114.19,
+                    97.71,
+                    360.92,
+                    220.07,
+                    389.03,
+                    184.54,
+                    13.98,
+                    468.48,
+                    179.28
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#ff0066"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "2019\u5404\u7701\u521d\u4e2d\u4e13\u4efb\u6559\u5e08\u6570\u91cf",
+            "data": [
+                [
+                    8.12,
+                    4.31,
+                    2.83,
+                    5.96,
+                    16.24,
+                    21.17,
+                    13.06,
+                    2.7,
+                    21.06,
+                    9.99,
+                    9.96,
+                    1.67,
+                    13.31,
+                    2.07,
+                    6.63,
+                    18.18,
+                    8.81,
+                    14.24,
+                    10.46,
+                    8.1,
+                    20.1,
+                    3.71,
+                    10.93,
+                    8.92,
+                    29.28,
+                    13.66,
+                    29.16,
+                    13.38,
+                    1.19,
+                    32.72,
+                    12.82
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#3333cc"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "2019\u5404\u7701\u521d\u4e2d\u751f\u5e08\u6bd4",
+            "data": [
+                [
+                    13.74,
+                    10.46,
+                    10.72,
+                    11.13,
+                    13.47,
+                    12.93,
+                    12.53,
+                    13.67,
+                    14.12,
+                    11.25,
+                    10.19,
+                    13.49,
+                    12.42,
+                    14.43,
+                    9.87,
+                    13.66,
+                    10.37,
+                    15.48,
+                    13.05,
+                    10.89,
+                    12.06,
+                    8.32,
+                    10.45,
+                    10.95,
+                    12.33,
+                    16.11,
+                    13.34,
+                    13.79,
+                    11.75,
+                    14.32,
+                    13.98
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#218868"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "2019\u5404\u7701\u521d\u4e2d\u5728\u6821\u5b66\u751f\u6570\u91cf",
+                "2019\u5404\u7701\u521d\u4e2d\u4e13\u4efb\u6559\u5e08\u6570\u91cf",
+                "2019\u5404\u7701\u521d\u4e2d\u751f\u5e08\u6bd4"
+            ],
+            "selected": {
+                "2019\u5404\u7701\u521d\u4e2d\u5728\u6821\u5b66\u751f\u6570\u91cf": true,
+                "2019\u5404\u7701\u521d\u4e2d\u4e13\u4efb\u6559\u5e08\u6570\u91cf": true,
+                "2019\u5404\u7701\u521d\u4e2d\u751f\u5e08\u6bd4": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "radar": {
+        "indicator": [
+            {
+                "name": " \u91cd\u5e86 "
+            },
+            {
+                "name": " \u4e0a\u6d77 "
+            },
+            {
+                "name": " \u5929\u6d25 "
+            },
+            {
+                "name": " \u5185\u8499\u53e4 "
+            },
+            {
+                "name": " \u5b89\u5fbd "
+            },
+            {
+                "name": " \u56db\u5ddd "
+            },
+            {
+                "name": " \u6d59\u6c5f "
+            },
+            {
+                "name": " \u6d77\u5357 "
+            },
+            {
+                "name": " \u6cb3\u5317 "
+            },
+            {
+                "name": " \u9655\u897f "
+            },
+            {
+                "name": " \u8fbd\u5b81 "
+            },
+            {
+                "name": " \u9752\u6d77 "
+            },
+            {
+                "name": " \u6e56\u5317 "
+            },
+            {
+                "name": " \u5b81\u590f "
+            },
+            {
+                "name": " \u5409\u6797 "
+            },
+            {
+                "name": " \u6e56\u5357"
+            },
+            {
+                "name": " \u9ed1\u9f99\u6c5f "
+            },
+            {
+                "name": " \u5e7f\u897f "
+            },
+            {
+                "name": " \u798f\u5efa "
+            },
+            {
+                "name": " \u7518\u8083 "
+            },
+            {
+                "name": " \u6c5f\u82cf "
+            },
+            {
+                "name": " \u5317\u4eac "
+            },
+            {
+                "name": " \u5c71\u897f "
+            },
+            {
+                "name": " \u65b0\u7586 "
+            },
+            {
+                "name": " \u5c71\u4e1c "
+            },
+            {
+                "name": " \u6c5f\u897f "
+            },
+            {
+                "name": " \u5e7f\u4e1c "
+            },
+            {
+                "name": " \u4e91\u5357 "
+            },
+            {
+                "name": " \u897f\u85cf "
+            },
+            {
+                "name": " \u6cb3\u5357 "
+            },
+            {
+                "name": " \u8d35\u5dde "
+            }
+        ],
+        "shape": "circle",
+        "name": {
+            "textStyle": {}
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            }
+        },
+        "splitArea": {
+            "show": true,
+            "areaStyle": {
+                "opacity": 0
+            }
+        },
+        "axisLine": {
+            "show": true,
+            "onZero": true,
+            "onZeroAxisIndex": 0
+        }
+    },
+    "title": [
+        {
+            "text": "\u5168\u56fd\u521d\u4e2d\u5b66\u6821\u751f\u5e08\u6bd4",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_5bf935007e2f465ebe670ba044e66d8b.setOption(option_5bf935007e2f465ebe670ba044e66d8b);
+    </script>
+{% endraw %}
+&nbsp;
+&nbsp;
+仅从上图2019年各省的初中在校学生数量与专任教师数量以及生师比数据，结合2019年初中升普通高中的数据进行对比，并无规律可循。
+
+
