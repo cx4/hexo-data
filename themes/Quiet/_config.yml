@@ -44,8 +44,8 @@ topIcon:
 tagsNum: 1000
 # 网页访问统计
 web_analytics:  
-  enable: false #需要改为true
-  baidu: 4b5fe1472f22fa  # （替换）百度统计的 Key，参见 https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376 代码获取中 hm.js? 后边的字符串
+  enable: true #需要改为true
+  baidu: ef983b4ae6224146a67a448c2d951cd3  # （替换）百度统计的 Key，参见 https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376 代码获取中 hm.js? 后边的字符串
 # 底部显示的图标（github 或者其他）
 bottomIcon: 
   #可以多个
